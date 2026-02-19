@@ -6,18 +6,18 @@ int main()
     string s;
     cin >> s;
 
-    char ch;
-    cin >> ch;
-
-    int count = 0;
+    int freq[26] = {0};
 
     for(int i = 0; i < s.size(); i++)
     {
-        if(s[i] == ch)
-        {
-            count++;
-        }
+        freq[s[i] - 'a']++;
     }
 
-    cout << count;
+    for(int i = 0; i < 26; i++)
+    {
+        if(freq[i] > 0)
+        {
+            cout << char(i + 'a') << " : " << freq[i] << endl;
+        }
+    }
 }
