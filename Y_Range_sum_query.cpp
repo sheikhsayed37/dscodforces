@@ -4,21 +4,21 @@ int main()
 {
     int n,q;
     cin>>n>>q;
-    int a[n];
-    for(int i=0;i<n;i++)
+   vector<int>v(n+1);
+    for(int i=1;i<=n;i++)
     {
-        cin>> a[i];
+        cin>> v[i];
 
     }
-    for(int i=0;i<q;i++)
+ 
+   while(q--)  
     {
-        int l,r;
-        cin>>l>>r;
+        int L,r;
+        cin>>L>>r;
         int sum=0;
-        for(int j=l-1;j<=r-1;j++) // 3 no line e 1 3 mane index 0-2 porjonto jog kora 
-        {                 //6+4+2=12 ..akane first line e n=6 jeta array neya hoise '
-                         // or input holo 6 4 2 7 2 7. er pashe 3 holo quaery.
-            sum=sum+a[j];
+        for(int i=L;i<=r;i++) 
+        {
+            sum=sum+v[i];
         }
         cout<<sum<<endl;
     }
