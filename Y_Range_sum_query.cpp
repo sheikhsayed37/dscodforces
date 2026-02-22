@@ -4,8 +4,8 @@ int main()
 {
     int n,q;
     cin>>n>>q;
-   vector<int>v(n+1);
-    for(int i=1;i<=n;i++)
+    vector<int>v(n+1);  // akta beshi nite hocce \index jeno zero teke count korte pari
+    for(int i=1;i<=n;i++)// oder kotha onosare i=1 to n
     {
         cin>> v[i];
 
