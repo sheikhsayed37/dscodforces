@@ -4,7 +4,6 @@ int main()
 {
     long long int n,q;
     cin>>n>>q;
-    
     vector<long long int>v(n+1);    // akta beshi nite hocce \index jeno 1  teke count korte pari
     for(int i=1;i<n+1;i++)     // oder kotha onosare i=1 to n
     {
