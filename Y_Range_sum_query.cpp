@@ -11,16 +11,28 @@ int main()
         cin>> v[i];
 
     }
+     vector<int>prefix(n+1);
+     prefix[1]=v[1];
+
+    for(int i=2;i<n+1;i++)
+    {
+        prefix[i]=prefix[i-1]+v[i];
+    }
     while(q--)  
     {
         int L,r;
         cin>>L>>r;
         int sum=0;
-        for(int i=L;i<=r;i++) 
-        {
-            sum=sum+v[i];
-        }
-        cout<<sum<<endl;
+       if(L==1)
+       {
+        sum=prefix[r];
+       
+       }
+       else
+       {
+        sum=prefix[r]-prefix[L-1];
+       }
+       cout<<sum<<endl;
     }
 
 }
