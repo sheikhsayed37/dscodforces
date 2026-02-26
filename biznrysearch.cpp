@@ -20,7 +20,7 @@ int main()
         }
 
     }
-    if(flag=1)
+    if(flag==1)
     {
         cout<<"found"<<endl;
     }

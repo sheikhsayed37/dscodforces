@@ -1,0 +1,1 @@
+{"name":"Local: binarysearch","url":"e:\\dscodforces\\binarysearch.cpp","tests":[{"id":1772131117535,"input":"6 \n1 2 4 5 6 7\n3","output":"not found"},{"id":1772131893502,"input":"6 \n1 2 4 5 6 7\n6","output":"found"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\dscodforces\\binarysearch.cpp","group":"local","local":true}
