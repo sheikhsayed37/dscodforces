@@ -9,8 +9,9 @@ int main()
     {
         cin>>a[i];
     }
-    sort(a,a+n);//binary search er jonno array ke sort korte hobe. 
-    for(int i=0;i<q;i++)
+    sort(a,a+n);//binary search er jonno array ke sort korte hobe. ORDER of compleeexity O(nlogn) 
+   
+    for(int i=0;i<q;i++)// ordeer of complexity O(q)
     {
      int value;
     cin>>value;
@@ -18,8 +19,8 @@ int main()
     l=0;
     r=n-1;
     int flag=0;
-    while(l<=r)
-    {
+    while(l<=r)  // binary search er order of complexity O(logn)..same loppe e tai complexity total hoi O(nlogn)+O(qlogn) which is better than O(n*q) of linear search.
+    {     // mane akn compexity O(qlogn)
          int mid=(l+r)/2;
         if(a[mid]==value)
          {
