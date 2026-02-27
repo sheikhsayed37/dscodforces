@@ -24,7 +24,8 @@ int main()
     {
         cout<<"found"<<endl;
     }
-   else{
+   else
+   {
     cout<<"not found"<<endl;
    }
 
