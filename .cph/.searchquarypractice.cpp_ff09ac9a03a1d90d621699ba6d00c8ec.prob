@@ -1,0 +1,1 @@
+{"name":"Local: searchquarypractice","url":"e:\\dscodforces\\searchquarypractice.cpp","tests":[{"id":1772186340906,"input":"5\n6 3 2 1 8\n\n4\n\n1\n5\n2\n9\n","output":"YES\nNO\nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\dscodforces\\searchquarypractice.cpp","group":"local","local":true}

@@ -31,5 +31,5 @@ int main()
        }
        cout<<sum<<endl;
     }
-
+ 
 }

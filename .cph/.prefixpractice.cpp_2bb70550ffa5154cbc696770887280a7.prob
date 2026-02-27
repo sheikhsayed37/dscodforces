@@ -1,0 +1,1 @@
+{"name":"Local: prefixpractice","url":"e:\\dscodforces\\prefixpractice.cpp","tests":[{"id":1772185625781,"input":"4\n1 2 3 4\n\n","output":"1 3 6 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\dscodforces\\prefixpractice.cpp","group":"local","local":true}
