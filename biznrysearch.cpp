@@ -28,8 +28,4 @@ int main()
    {
     cout<<"not found"<<endl;
    }
-
-
-
-
 }

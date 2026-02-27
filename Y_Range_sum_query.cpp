@@ -14,7 +14,7 @@ int main()
 
     for(int i=2;i<n+1;i++)
     {
-        prefix[i]=prefix[i-1]+v[i];
+        prefix[i]=prefix[i-1]+v[i];  // 6, 6+2=8, 8+3=11, 11+4=15, 15+5=20 agola create hbe
     }
     while(q--)  
     {
